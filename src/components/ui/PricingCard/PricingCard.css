@@ -1,0 +1,71 @@
+
+
+.pricing-card-content{
+    width: 288px;
+    height: 750px;
+    
+}
+
+.plan-name{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36.31px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.plan-price{
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 72.61px;
+    text-align: left;
+    padding-left: 20px;
+}
+.plan-detail{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.025em;
+    text-align: left;
+    color: #65676C;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.plan-features{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    color:#65676C;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.025em;
+    text-align: left;
+
+
+}
+.p-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.plan-btn{
+    padding: 14px 50px;
+    border-radius: 50px;
+    margin: 0px 55px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.pricing-card-section{
+    border-radius: 20px;
+    background: #FFFFFF;
+    padding-bottom: 41px;
+}

@@ -1,0 +1,29 @@
+.footer-menus-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    padding-left: 80px;
+
+}
+
+.footer-menus-title{
+    color: white;
+    gap: 20px;
+    font-size: 18px;
+
+   
+
+}
+
+.footer-menus{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Inter;
+font-size: 15px;
+font-weight: 200;
+text-align: left;
+
+    
+}
