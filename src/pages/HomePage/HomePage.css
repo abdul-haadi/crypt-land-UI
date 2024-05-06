@@ -487,3 +487,25 @@
     padding-left: 120px;
 }
 
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ width: 100%;
+ background-color: black;
+
+}
+
+.copyright-content{
+    width: 80%;
+    border-top: 0.5px solid white;
+    color: white;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;   
+    line-height: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+}

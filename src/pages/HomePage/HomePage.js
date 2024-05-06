@@ -304,6 +304,9 @@ const HomePage = () => {
           })}
         </div>
       </div>
+        <div className="line">
+        <div className="copyright-content">© 2023 Crypt Land. All rights reserved     |     Cookie Settings, Anti-Spam, Privacy, User agreement, Legal Notice and Responsible Disclosure</div>
+        </div>
     </div>
   );
 };
