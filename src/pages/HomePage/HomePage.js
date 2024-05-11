@@ -13,10 +13,10 @@ import right_side from "./right-side.png";
 import cust_1 from "./cus_1.png";
 import cust_2 from "./cus_2.png";
 import cust_3 from "./cus_3.png";
-import PricingCard from "../../components/ui/PricingCard/PricingCard";
+import PricingCard from "../../components/ui/crypt-land/PricingCard/PricingCard";
 import demo from "./demo-image.png";
-import FooterMenu from "../../components/ui/FooterMenu/FooterMenu";
-import Testimonials from "../../components/ui/Testimonials/Testimonials";
+import FooterMenu from "../../components/ui/crypt-land/FooterMenu/FooterMenu";
+import Testimonials from "../../components/ui/crypt-land/Testimonials/Testimonials";
 import person1 from './person1.png'
 import star from './star.png'
 import social from './social-icon.png'

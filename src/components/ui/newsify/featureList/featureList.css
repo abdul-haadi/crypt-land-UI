@@ -1,0 +1,44 @@
+.feature-list-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+    padding: 80px 20px 40px 20px;
+    position: relative;
+    width: 18vw;
+}
+
+.circle-arrow{
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.circle-arrow > img{
+    border-radius: 100px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+
+.feature-list-title{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+
+}
+
+.feature-list-desc{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+
+}
