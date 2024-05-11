@@ -88,7 +88,7 @@ const NewsifyPage = () => {
   ];
 
   return (
-    <div className="Application">
+    <div className="Application-newsify">
       <div className="newsify-intro-section">
         <div className="announcement">
           <button className="announcement-btn">New</button>

@@ -51,7 +51,7 @@
   padding: 20px 30px;
 }
 
-img:hover{
+.Application-newsify > img:hover{
     transform: scale(1.1);
     transition: 0.5s ease;
 }
