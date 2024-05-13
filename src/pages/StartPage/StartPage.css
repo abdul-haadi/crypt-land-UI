@@ -51,6 +51,7 @@
 
 .start-intro-image {
   height: 45vh;
+  max-width: 100%;
 }
 
 .start-intro-welcome {
