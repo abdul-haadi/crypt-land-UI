@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.start-application {
+  position: relative;
+}
+
+.start-intro-section {
+  width: 100%;
+  height: 100vh;
+  background: #74c69d;
+}
+
+.start-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 130px;
+}
+
+.start-logo > img {
+  height: 40px;
+}
+
+.start-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  color: white;
+  font-family: Work Sans;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.start-intro-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 130px;
+  gap: 50px;
+}
+
+.start-intro-content {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.start-intro-image {
+  height: 45vh;
+}
+
+.start-intro-welcome {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 5px;
+  text-align: left;
+  color: white;
+}
+
+.start-intro-title {
+  font-family: Crimson Text;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+  color: white;
+}
+
+.start-intro-desc {
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left;
+  color: #ffffffbf;
+}
+
+.start-explore-btn {
+  padding: 13px 45px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: Work Sans;
+  width: 150px;
+}
+
+.start-partners-section {
+  padding: 60px 140px;
+}
+
+.start-partners-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.start-partners {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #74c69d;
+}
+
+.start-partners-title {
+  font-family: Crimson Text;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+}
+
+.start-partners-desc {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+
+.start-partners-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 55px 0;
+}
+
+.partner-button {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  background-color: #212529;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.start-services-section {
+  padding: 70px 130px;
+}
+
+.start-service-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.start-service-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.start-service-container {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.service-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+
+.start-service-title {
+  font-family: Crimson Text;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+}
+.start-service-desc {
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left;
+  color: #21252980;
+}
+
+.service-image > img {
+  height: 70vh;
+}
+.start-team-section {
+  padding: 100px 130px;
+}
+
+.start-team-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.start-team {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #74c69d;
+  padding-bottom: 10px;
+}
+
+.start-team-title {
+  font-family: Crimson Text;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+}
+
+.start-team-desc {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+
+.start-team-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 45px;
+}
+
+.start-team-member{
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0px 10px 20px 0px #0000001a;
+}
+
+.start-footer-section{
+    background-color: #74c69d;
+    padding: 40px 130px;
+    color: white;
+    font-family: Work Sans;
+}
+
+.start-footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+@media screen and (max-width: 900px) {
+  .start-intro-section {
+    width: 100%;
+    height: 150vh;
+  }
+
+  .start-menu {
+    flex-direction: column;
+    display: none;
+    background-color: #74c69d;
+    width: 40%;
+    right: 0;
+    top: 50px;
+    position: absolute;
+  }
+
+  .start-menu.show {
+    display: flex;
+    border: 1px solid #000000;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .start-logo > img {
+    height: 30px;
+  }
+
+  .start-intro-section-container {
+    flex-direction: column-reverse;
+  }
+  .start-partners-logo {
+    flex-direction: column;
+  }
+  .start-service-1 {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .start-service-2 {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .start-partners-section {
+    padding: 20px 0px;
+  }
+  .start-team-section {
+    padding: 100px 20px;
+  }
+  .start-partners-container {
+    padding: 20px 150px;
+  }
+  .start-team-desc {
+    padding: 10px 0px;
+  }
+
+  .start-team-detail{
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0px;
+  }
+  .start-footer-section{
+    padding: 20px 0px;
+  
+  }
+  .start-footer-container{
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .start-intro-section {
+    width: 100%;
+    height: 170vh;
+  }
+  .start-navbar {
+    padding: 20px 20px;
+  }
+
+  .service-image {
+    height: max-content;
+  }
+  .service-image > img {
+    height: 40vh;
+  }
+
+  .start-intro-image {
+    height: 30vh;
+  }
+
+  .service-content {
+    gap: 10px;
+  }
+}

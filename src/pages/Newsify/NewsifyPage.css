@@ -30,6 +30,7 @@
   line-height: 16.42px;
   text-align: right;
   border: none;
+  cursor: pointer;
 }
 
 .logo {
