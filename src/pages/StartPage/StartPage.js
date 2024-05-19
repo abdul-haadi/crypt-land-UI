@@ -21,23 +21,6 @@ const StartPage = () => {
   return (
     <div className="start-Application">
       <div className="start-intro-section">
-        <div className="start-navbar">
-          <div className="start-logo">
-            <img src={start}></img>
-          </div>
-          <div className={`start-menu ${showMenu ? "show" : ""}`}>
-            <a>Home</a>
-            <a>Portfolio</a>
-            <a>Services</a>
-            <a>Contact</a>
-          </div>
-          <div
-            className="hamburger-menu "
-            onClick={() => setShowMenu(!showMenu)}
-          >
-            <img src={menubar}></img>
-          </div>
-        </div>
         <div className="start-intro-section-container">
           <div className="start-intro-content">
             <div className="start-intro-welcome">WELCOME</div>
@@ -158,13 +141,6 @@ const StartPage = () => {
             <button className="partner-button">View Team</button>
           </div>
         </div>
-      </div>
-      <div className="start-footer-section">
-        <div className="start-footer-container">
-            <div><img src={socials}></img></div>
-            <div>© Start, 2022. All rights reserved.</div>
-        </div>
-
       </div>
     </div>
   );

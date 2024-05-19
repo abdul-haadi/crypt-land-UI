@@ -66,7 +66,7 @@
 
 .start-intro-title {
   font-family: Crimson Text;
-  font-size: 40px;
+  font-size: 44px;
   font-weight: 700;
   line-height: 50px;
   text-align: left;
@@ -255,19 +255,6 @@
     box-shadow: 0px 10px 20px 0px #0000001a;
 }
 
-.start-footer-section{
-    background-color: #74c69d;
-    padding: 40px 130px;
-    color: white;
-    font-family: Work Sans;
-}
-
-.start-footer-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-}
 
 @media screen and (max-width: 900px) {
   .start-intro-section {
@@ -279,9 +266,10 @@
     flex-direction: column;
     display: none;
     background-color: #74c69d;
-    width: 40%;
+    width: 100%;
+    height: max-content;
     right: 0;
-    top: 50px;
+    top: 60px;
     position: absolute;
   }
 
@@ -303,6 +291,7 @@
   }
   .start-partners-logo {
     flex-direction: column;
+    flex-wrap: wrap;
   }
   .start-service-1 {
     flex-direction: column;
@@ -319,10 +308,14 @@
     padding: 100px 20px;
   }
   .start-partners-container {
-    padding: 20px 150px;
+    padding: 20px 100px;
   }
   .start-team-desc {
     padding: 10px 0px;
+  }
+  .start-services-section{
+    padding: 20px 100px;
+    gap: 20px;
   }
 
   .start-team-detail{
@@ -330,13 +323,6 @@
     gap: 20px;
     padding: 10px 0px;
   }
-  .start-footer-section{
-    padding: 20px 0px;
-  
-  }
-  .start-footer-container{
-    flex-direction: column;
-}
 }
 
 @media screen and (max-width: 600px) {

@@ -1,0 +1,25 @@
+
+.start-footer-section{
+    background-color: #74c69d;
+    padding: 40px 130px;
+    color: white;
+    font-family: Work Sans;
+}
+
+.start-footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+@media screen and (max-width: 768px){
+    .start-footer-section{
+        padding: 40px 20px;
+    }
+
+    .start-footer-container{
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,113 @@
+.planSection{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 4px 12px 1px #00000040;
+    gap: 10px;
+    /* padding: 46px 30px; */
+    padding: 46px 0px 46px 0px;
+    border-radius: 5px;
+    align-items: center;
+    max-width: 300px;
+    min-width: min-content;
+}
+
+.planTitle{
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+
+}
+.planPricing{
+   display: flex ;
+   align-items: center;
+   gap: 5px;
+
+}
+
+.price{
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+.time{
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: #21252980;
+
+    
+}
+
+.planDesc{
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 18.75px;
+text-align: center;
+color: #21252980;
+
+
+}
+
+.featureList{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: left;
+}
+
+.listItem{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: left;
+}
+
+.planBtn{
+   padding-top: 46px;
+}
+.planBtn  > button{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    background-color: #212529;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .planSection{
+        padding: 20px 10px;
+    }
+    .price{
+        font-size: 30px;
+    }
+    .time{
+        font-size: 12px;
+    }
+    .planDesc{
+        font-size: 12px;
+    }
+    .planBtn{
+        padding-top: 20px;
+    }
+    .planBtn  > button{
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+    
+}
